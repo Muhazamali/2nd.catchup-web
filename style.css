@@ -4,11 +4,15 @@ body{
 .row {
     display: flex;
     margin-top: 10px;
+  
+
     
 }
 
-  
-  .column {
+ .column-left {
+    flex: 50%;
+  }
+  .column-right{
     flex: 50%;
   }
  
@@ -26,7 +30,6 @@ body{
 }
 .social img{
     padding-left: 5px;
-    
 }
 .logo2{
     margin-left: 45%;
@@ -56,14 +59,36 @@ p{
 
 
 
-  @media screen and (max-width: 600px) {
-    .row{
-        display:inline;
-    }
-    .column {
 
-      width: 100%;
-        display: block;
+  @media (max-width: 720px) {
+    
+    .column-left,.column-right {
+      flex: 100%;
+      
     }
-  }
-  
+    .row{
+        flex-wrap: wrap;
+        
+
+    }
+    .logo{
+        margin: 0px;
+
+    }
+    .social{
+        margin: 0px;
+    }
+    
+    .social1{
+        margin:0px;
+        
+    }
+    .column img{
+        width: 100%;
+        height:auto;
+    }
+    .logo2{
+        margin-left: 35%;
+    }
+    
+}
