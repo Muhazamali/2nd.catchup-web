@@ -1,94 +1,92 @@
-body{
-    background-color: rgba(226,226,226,0.5);
+body {
+  background-color: rgba(226, 226, 226, 0.5);
 }
 .row {
+  display: flex;
+  margin-top: 10px;
+}
+.textSpan h1 {
+  margin-top: 300px;
+}
+.column-left ,.column-main ,.column-right{
+  flex: 50%;
+}
+
+.social {
+  margin-left: 150px;
+  margin-top: 80px;
+}
+
+.social1 {
+  margin-left: 36%;
+}
+.social1 img {
+  padding-left: 5px;
+}
+.social img {
+  padding-left: 5px;
+}
+.logo2 {
+  margin-left: 45%;
+}
+.vector {
+  margin-top: 70px;
+}
+.hd {
+  margin-top: 200px;
+}
+.logo {
+  margin-left: 100px;
+  margin-top: 35px;
+  justify-content: center;
+}
+h1 {
+  letter-spacing: 2px;
+  text-align: center;
+}
+p {
+  text-align: center;
+  font-size: larger;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+}
+
+@media (max-width: 720px) {
+  .column-left,
+  .column-right,
+  .column-main {
+    flex: 100%;
+  }
+  .row {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .logo {
+    margin: 0px;
+  }
+  .social1,
+  .social {
+    margin: 0px;
     display: flex;
-    margin-top: 10px;
-  
-
-    
-}
-
- .column-left {
-    flex: 50%;
-  }
-  .column-right{
-    flex: 50%;
-  }
- 
-.social{
-    margin-left: 150px;
-    margin-top: 80px;
-
-}
-
-.social1{
-    margin-left: 36%;
-}
-.social1 img{
-    padding-left: 5px;
-}
-.social img{
-    padding-left: 5px;
-}
-.logo2{
-    margin-left: 45%;
-}
-.vector{
-    margin-top: 70px;
-}
-.hd
-{
-margin-top: 200px;
-}
-.logo{
-    margin-left: 100px;
-    margin-top:35px;
     justify-content: center;
-}
-h1{
-    letter-spacing: 2px;
-    text-align: center;
-}
-p{
-    text-align: center;
-    font-size: larger;
-    letter-spacing: 0.5px;
-    line-height: 25px;
-}
-
-
-
-
-  @media (max-width: 720px) {
-    
-    .column-left,.column-right {
-      flex: 100%;
-      
-    }
-    .row{
-        flex-wrap: wrap;
-        
-
-    }
-    .logo{
-        margin: 0px;
-
-    }
-    .social{
-        margin: 0px;
-    }
-    
-    .social1{
-        margin:0px;
-        
-    }
-    .column img{
-        width: 100%;
-        height:auto;
-    }
-    .logo2{
-        margin-left: 35%;
-    }
-    
+  }
+  .column-left img {
+    width: 100%;
+    height: auto;
+  }
+  .column-right img {
+    width: 100%;
+    height: auto;
+  }
+  .social img {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+  }
+  .logo2 {
+    margin-left: 35%;
+  }
+  .textSpan h1 {
+    margin-top: 150px;
+  }
 }
