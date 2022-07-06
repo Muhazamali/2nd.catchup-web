@@ -1,5 +1,9 @@
 body {
-  background-color: rgba(226, 226, 226, 0.5);
+  background-image: linear-gradient(
+    to left,
+    rgb(69, 69, 129),
+    rgba(226, 226, 226, 0.7)
+  );
 }
 .row {
   display: flex;
@@ -8,7 +12,9 @@ body {
 .textSpan h1 {
   margin-top: 300px;
 }
-.column-left ,.column-main ,.column-right{
+.column-left,
+.column-main,
+.column-right {
   flex: 50%;
 }
 
