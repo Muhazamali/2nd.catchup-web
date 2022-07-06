@@ -1,3 +1,69 @@
-h1{
+body{
+    background-color: rgba(226,226,226,0.5);
+}
+.row {
+    display: flex;
+    margin-top: 10px;
     
 }
+
+  
+  .column {
+    flex: 50%;
+  }
+ 
+.social{
+    margin-left: 150px;
+    margin-top: 80px;
+
+}
+
+.social1{
+    margin-left: 36%;
+}
+.social1 img{
+    padding-left: 5px;
+}
+.social img{
+    padding-left: 5px;
+    
+}
+.logo2{
+    margin-left: 45%;
+}
+.vector{
+    margin-top: 70px;
+}
+.hd
+{
+margin-top: 200px;
+}
+.logo{
+    margin-left: 100px;
+    margin-top:35px;
+    justify-content: center;
+}
+h1{
+    letter-spacing: 2px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: larger;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+}
+
+
+
+  @media screen and (max-width: 600px) {
+    .row{
+        display:inline;
+    }
+    .column {
+
+      width: 100%;
+        display: block;
+    }
+  }
+  
