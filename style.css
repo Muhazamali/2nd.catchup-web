@@ -1,7 +1,6 @@
 body {
   background-image: linear-gradient(
-    to left,
-    rgb(69, 69, 129),
+    to left, darkblue,
     rgba(226, 226, 226, 0.7)
   );
 }
