@@ -8,13 +8,13 @@ body {
   display: flex;
   margin-top: 10px;
 }
-.textSpan h1 {
-  margin-top: 300px;
-}
 .column-left,
 .column-main,
 .column-right {
   flex: 50%;
+}
+.textSpan h1 {
+  margin-top: 300px;
 }
 
 .social {
@@ -25,10 +25,8 @@ body {
 .social1 {
   margin-left: 36%;
 }
-.social1 img {
-  padding-left: 5px;
-}
-.social img {
+
+.social img, .social1 img {
   padding-left: 5px;
 }
 .logo2 {
@@ -75,11 +73,7 @@ p {
     display: flex;
     justify-content: center;
   }
-  .column-left img {
-    width: 100%;
-    height: auto;
-  }
-  .column-right img {
+  .column-right img,.column-left img {
     width: 100%;
     height: auto;
   }
