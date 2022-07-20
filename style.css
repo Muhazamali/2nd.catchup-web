@@ -1,8 +1,6 @@
 body {
-  background-image: linear-gradient(
-    to left, darkblue,
-    rgba(226, 226, 226, 0.7)
-  );
+  background-color: 
+    rgba(226, 226, 226, 0.7);
 }
 .row {
   display: flex;
@@ -52,6 +50,14 @@ p {
   font-size: larger;
   letter-spacing: 0.5px;
   line-height: 25px;
+}
+.textSpan h1{
+  font-size: 3rem;
+}
+.textSpan p{
+  font-size: 2.5rem;
+  line-height: 2rem;
+  color: darkgray;
 }
 
 @media (max-width: 720px) {
